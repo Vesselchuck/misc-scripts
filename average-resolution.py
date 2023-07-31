@@ -5,7 +5,7 @@ from PIL import Image
 widths = []
 heights = []
 
-dir_path = r"D:\YandexDisk\Boosty\Pathfinder\Падение Чумного Камня\1. Deskew" # Adding 'r' to make the string a raw string
+dir_path = r"D:\YandexDisk\Boosty\Pathfinder\Ползучая смерть\1. Deskew" # Adding 'r' to make the string a raw string
 
 for img_name in os.listdir(dir_path):
     if img_name.endswith(".jpg") or img_name.endswith(".png") or img_name.endswith(".jpeg") or img_name.endswith(".bmp"):
